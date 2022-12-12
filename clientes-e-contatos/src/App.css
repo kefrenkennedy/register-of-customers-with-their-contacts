@@ -14,18 +14,98 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: rgb(213, 212, 245);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .App-link {
   color: #61dafb;
+}
+
+#header {
+  background-color: rgb(213, 212, 245);
+  width: 100vh;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: 7%;
+  color: blue;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+#navBarContainer {
+  width: 100%;
+  background-color: blue;
+}
+
+#navBar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 15px;
+  background-color: blue;
+  justify-content: space-around;
+}
+
+#vitrinesContainer {
+  justify-content: center;
+  display: flex;
+  background-color: rgb(194, 193, 238);
+  width: 100%;
+  height: auto;
+}
+
+#vitrineClientes {
+  display: flex;
+  align-items: center;
+  border-right: solid black 2px;
+  width: 50%;
+  height: 100%;
+  flex-direction: column;
+}
+
+.listaClientes{
+  width: 90%;
+  height: 90%;
+}
+
+#vitrineContatos{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 400px;
+}
+
+.listTitle{
+  margin-left: 15px;
+}
+
+.submitButton {
+  border-radius: 10px;
+  font-size: 1.2rem;
+  height: 28px;
+  cursor: pointer;
+}
+.submitButton:hover {
+  background-color: rgb(1, 110, 34);
+  color: white;
+}
+
+.campo{
+  margin-bottom: 18px;
+  border-radius: 10px;
 }
 
 @keyframes App-logo-spin {
